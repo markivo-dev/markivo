@@ -3,24 +3,21 @@
   "buildCommand": "npm run build",
   "devCommand": "npm run dev",
   "installCommand": "npm install",
-  "regions": ["iad1"],
-  "env": {
-    "NEXT_PUBLIC_SUPABASE_URL": "@supabase_url",
-    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "@supabase_anon_key",
-    "SUPABASE_SERVICE_ROLE_KEY": "@supabase_service_role_key",
-    "PADDLE_API_KEY": "@paddle_api_key",
-    "NEXT_PUBLIC_PADDLE_CLIENT_TOKEN": "@paddle_client_token",
-    "PADDLE_WEBHOOK_SECRET": "@paddle_webhook_secret",
-    "PHOTOROOM_API_KEY": "@photoroom_api_key",
-    "N8N_WEBHOOK_URL": "@n8n_webhook_url",
-    "N8N_API_KEY": "@n8n_api_key"
-  },
+  "regions": [
+    "iad1"
+  ],
   "headers": [
     {
       "source": "/api/(.*)",
       "headers": [
-        { "key": "Access-Control-Allow-Origin", "value": "https://getmarkivo.com" },
-        { "key": "Access-Control-Allow-Methods", "value": "GET, POST, PUT, DELETE, OPTIONS" }
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "https://getmarkivo.com"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET, POST, PUT, DELETE, OPTIONS"
+        }
       ]
     }
   ]
