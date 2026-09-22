@@ -1,0 +1,94 @@
+{
+  "nav": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "login": "Login",
+    "signup": "Get Started Free",
+    "dashboard": "Dashboard"
+  },
+  "hero": {
+    "badge": "AI-Powered Marketing Platform",
+    "title": "Transform Your Products Into",
+    "title_highlight": "Marketing Magic",
+    "subtitle": "Remove backgrounds, enhance images, create videos, generate captions & auto-publish to social media — all in one platform powered by AI.",
+    "cta_primary": "Start Free — 50 Credits",
+    "cta_secondary": "Watch Demo",
+    "stats": {
+      "images": "Images Processed",
+      "users": "Active Users",
+      "countries": "Countries"
+    }
+  },
+  "features": {
+    "title": "Everything You Need to Market",
+    "subtitle": "One platform, all your marketing needs",
+    "bg_removal": {
+      "title": "AI Background Removal",
+      "desc": "Remove backgrounds instantly with professional quality"
+    },
+    "enhance": {
+      "title": "Image Enhancement",
+      "desc": "Make your product photos shine with AI enhancement"
+    },
+    "video": {
+      "title": "Video Creation",
+      "desc": "Turn images into engaging marketing videos"
+    },
+    "captions": {
+      "title": "Smart Captions",
+      "desc": "Generate trending captions for your target market"
+    },
+    "publish": {
+      "title": "Auto-Publish",
+      "desc": "Schedule and publish to all social platforms"
+    },
+    "replies": {
+      "title": "Auto-Reply",
+      "desc": "AI handles comments and messages automatically"
+    }
+  },
+  "pricing": {
+    "title": "Simple, Transparent Pricing",
+    "subtitle": "Start free, scale as you grow",
+    "free": {
+      "name": "Free",
+      "price": "$0",
+      "period": "/month",
+      "credits": "50 credits/month",
+      "features": ["Background removal", "Image enhancement", "Basic captions", "5 social posts/month"],
+      "cta": "Start Free"
+    },
+    "pro": {
+      "name": "Pro",
+      "price": "$15.99",
+      "period": "/month",
+      "credits": "500 credits/month",
+      "badge": "Most Popular",
+      "features": ["Everything in Free", "Video creation", "Auto-publish unlimited", "AI auto-reply", "Priority support", "Analytics"],
+      "cta": "Start Pro"
+    }
+  },
+  "dashboard": {
+    "welcome": "Welcome back",
+    "credits": "Credits",
+    "upload": "Upload Image",
+    "processing": "Processing...",
+    "tools": {
+      "bg_remove": "Remove Background",
+      "enhance": "Enhance Image",
+      "video": "Create Video",
+      "caption": "Generate Caption",
+      "publish": "Publish to Social"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "success": "Done!",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "download": "Download"
+  }
+}
